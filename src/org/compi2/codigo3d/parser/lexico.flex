@@ -25,6 +25,8 @@ DIV             = "/"
 POT             = "^"
 PAR_IZQ         = "("
 PAR_DER         = ")"
+IGUALACION      = "=="
+DIFERNETE       = "!="
 
 ID              = [A-Za-z][_0-9A-Za-z]*
 ENTERO          = [0-9]+
