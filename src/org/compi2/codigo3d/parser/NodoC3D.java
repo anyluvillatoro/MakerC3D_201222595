@@ -8,7 +8,15 @@ package org.compi2.codigo3d.parser;
  */
 public class NodoC3D {
     private String cad;
-
+    private String etqV;
+    private String etqF;
+    
+    public NodoC3D(String cad, String etqv, String etqf ) {
+        this.cad = cad;
+        this.etqV = etqv;
+        this.etqF = etqf;
+    }
+    
     public NodoC3D(String cad) {
         this.cad = cad;
     }
