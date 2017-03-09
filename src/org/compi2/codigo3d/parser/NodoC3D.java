@@ -24,5 +24,13 @@ public class NodoC3D {
     public String getCad(){
         return cad;
     }
+    
+    public String getETQV(){
+        return etqV;
+    }
+    
+    public String getETQF(){
+        return etqF;
+    }
         
 }
