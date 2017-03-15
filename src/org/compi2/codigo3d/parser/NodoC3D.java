@@ -11,8 +11,7 @@ public class NodoC3D {
     private String etqV;
     private String etqF;
     
-    public NodoC3D(String cad, String etqv, String etqf ) {
-        this.cad = cad;
+    public NodoC3D(String etqv, String etqf ) {
         this.etqV = etqv;
         this.etqF = etqf;
     }
@@ -32,5 +31,14 @@ public class NodoC3D {
     public String getETQF(){
         return etqF;
     }
+    
+    public void setEtqv(String etqv) {
+        this.etqV = etqv;
+    }
+    
+    public void setEtqf(String etqf) {
+        this.etqF = etqf;
+    }
+
         
 }
